@@ -31,7 +31,7 @@ public class PersonaServlet extends HttpServlet
 		// TODO Auto-generated method stub
 		
 		Connection conn = null;
-		DatabaseManager dbManageer=null;
+		DatabaseManager dbManager=null;
 		List<Persona> personas=null;
 		RequestDispatcher dispatcher=null;
 		

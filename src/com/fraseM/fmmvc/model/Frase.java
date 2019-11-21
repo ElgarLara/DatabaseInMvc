@@ -1,6 +1,6 @@
 package com.fraseM.fmmvc.model;
 
-
+import java.util.Date;
 
 public class Frase
 {
@@ -8,6 +8,7 @@ public class Frase
 	private String Contenido= " ";
 	private String Cantidad = " ";
 	private String FechaDesde =" ";
+	private Date fecha;
 	
 	public String getContenido()
 	{
@@ -26,13 +27,21 @@ public class Frase
 	{
 		this.Cantidad=Cantidad;
 	}
-	public String getFechaDe()
+	public String getFechaDesde()
 	{
 		return FechaDesde;
 	}
 	public void setFechaDesde(String FechaDesde)
 	{
 		this.FechaDesde=FechaDesde;
+	}
+	public Date getFecha()
+	{
+		return fecha;
+	}
+	public void setFecha(Date fecha)
+	{
+		this.fecha=fecha;
 	}
 	
 

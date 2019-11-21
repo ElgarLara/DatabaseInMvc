@@ -44,8 +44,9 @@ public class DatabaseManager
 		try {
 			stmnt=conn.createStatement();
 			stmnt.executeQuery(query);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+		} catch (SQLException e) 
+		{
+			
 			e.printStackTrace();
 		}
 	}
@@ -81,8 +82,8 @@ public class DatabaseManager
 				listPersonas.add(persona);
 			}
 		
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+		} catch (SQLException e)
+		{
 			e.printStackTrace();
 		}
 		return listPersonas;
